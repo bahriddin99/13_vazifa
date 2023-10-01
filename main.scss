@@ -1,0 +1,8 @@
+@mixin linear-gradient($start-color, $end-color) {
+    background: linear-gradient(to right, $start-color, $end-color);
+    -webkit-background-clip: text;
+}
+
+.element {
+    @include linear-gradient(right, #383a3a #43e612);
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/css/minified/main.min.css">
+    <title>Contact</title>
+</head>
+<body>
+<section id="navbar" class="Navbar bg-white sticky-top py-3">
+    <div class="container d-flex justify-content-between align-items-center g-3">
+        <a href="#" class="text-decoration-none text-primary fw-bold fs-3 d-md-block ">Start Bootstrap</a>
+        <ul class="d-flex gap-4 list-unstyled m-0 fs-5 text-capitalize d-md-flex d-none ">
+            <li><a href="./main.html" class="text-decoration-none text-secondary">home</a></li>
+            <li><a href="./resume.html" class="text-decoration-none text-secondary">resume</a></li>
+            <li><a href="./project.html" class="text-decoration-none text-secondary">project</a></li>
+            <li><a href="./contact.html" class="text-decoration-none text-secondary">contanct</a></li>
+        </ul>
+        <div class="d-md-none">
+            <button class="btn-secondary fs-3 w-100" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#main-nav-sidebar" aria-controls="offcanvasExample">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="main-nav-sidebar"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+
+                </div>
+                <div class="offcanvas-body ">
+                    <ul class="list-unstyled   text-capitalize fs-4">
+                        <li><a href="./main.html" class="text-decoration-none text-reset ">home</a></li>
+                        <li><a href="./resume.html" class="text-decoration-none text-reset ">resume</a></li>
+                        <li><a href="./project.html" class="text-decoration-none text-reset ">project</a></li>
+                        <li><a href="./contact.html" class="text-decoration-none text-reset ">contanct</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="" class="py-5">
+    <div class="container px-5 ">
+        <div class="bg-light py-5 px-4 px-md-5 rounded-4">
+           <div class=" mb-5 text-center">
+              <div class="fw-bolder">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <h1 class="fw-bolder">Get in touch</h1>
+               <p class="lead fw-normal text-muted mb-0">Let's work together</p>
+           </div>
+             <div class="row gx-5 justify-content-center">
+                <div class="col-lg-8 col-xl-6">
+                    <form class="form">
+                       <div class="form-floating mb-3">
+                        <input type="text" placeholder="Enter your name.." id="name" class="form-control">
+                        <label for="name">Full name</label>
+                        <div class="invalid-feedback" data-sb-feedback="name:required">A name required</div>
+                       </div>
+                       <div class="form-floating mb-3">
+                        <input type="text" id="email" type="email" placeholder="" class="form-control">
+                        <label for="email">Email adress</label>
+                        <div class="invalid-feedback" data-sb-feedback="name:required">A name required</div>
+                       </div>
+                       <div class="form-floating mb-3">
+                        <input type="text" id="phone"  type="tel" placeholder="Enter your name.." class="form-control">
+                        <label for="tel">Phone nomer</label>
+                        <div class="invalid-feedback" data-sb-feedback="name:required">A name required</div>
+                       </div>
+                       <div class="form-floating mb-3">
+                        <textarea type="text" id="message" class="form-control" placeholder="Enter your message here..." style="height: 10rem; ">
+                        </textarea>
+                          <label for="message">Message</label>
+                        <div class="invalid-feedback" data-sb-feedback="name:required">A name required</div>
+                          
+                       </div>
+                       <div class="d-grid">
+                        <button class="btn btn-primary btn-lg disabled " id="submitButton" type="submit">Submit</button>
+                       </div>
+                    </form>
+                </div>
+             </div>
+        </div>
+        <div class="d-flex justify-content-between py-5 py-5">
+            <div>
+                <p>Copyright © Your Website 2023</p>
+            </div>
+            <div class="d-flex gap-3">
+                <i><a href="#">privary</a></i>
+                <i><a href="#">privary</a></i>
+                <i><a href="#">privary</a></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="footer">
+    
+</section>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
